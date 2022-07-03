@@ -96,17 +96,17 @@
         // (i.e. switch among the devices).
         combo_bt_next {
             timeout-ms = <50>;
-            key-positions = <27 28>;
+            key-positions = <20 21>;
             bindings = <&bt BT_NXT>;
         };
         combo_bt_prev {
             timeout-ms = <50>;
-            key-positions = <26 27>;
+            key-positions = <21 22>;
             bindings = <&bt BT_PRV>;
         };
         combo_bt_out_tog {
             timeout-ms = <50>;
-            key-positions = <4 5>;
+            key-positions = <22 23>;
             bindings = <&out OUT_TOG>;
         };
 
